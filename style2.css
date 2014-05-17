@@ -1,0 +1,141 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+	font-size: 48px;
+	color: blue;
+	text-align: center;
+	font-family: "Roboto Slab", American, serif;
+}
+
+html, body {
+	margin: 0;
+    padding: 0;
+  	height: 100%;
+  	min-height: 100%; /* for firefox */
+}
+
+#container{
+	width: auto;
+	min-height: 3000px;
+	height: 4400px;
+	margin: 100px;
+	background-color: #999966;
+	position: inherit;
+}
+
+#HeadPhoto{
+	width: auto;
+	height: 500px;
+	float: left;
+
+}
+
+#colorbar{
+	width: 100%;
+	height: 150px;
+	background-color: red;
+	float: left;
+	vertical-align: bottom;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#PreviewPhoto{
+	width: auto;
+	height: 200px;
+	padding: 50px;
+}
+
+#photo1{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: 50px;
+	margin-bottom: 50px;
+}
+
+#photo2{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: 50px;
+	margin-bottom: 50px;
+	left: 300px;
+	bottom: 600px;
+}
+
+#photo3{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: 50px;
+	margin-bottom: 50px;
+	left: 600px;
+	bottom: 1200px;
+}
+
+#photo4{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: 50px;
+	margin-bottom: 50px; 
+	left: 900px;
+	bottom: 1800px;
+}
+
+#story{
+	border: 2px solid black;
+	width: 100%;
+	min-height: 750px;
+	margin-bottom: 50px;
+}
+
+#storyparagraphs{
+	-webkit-column-count:3; 
+	-moz-column-count:3; 
+	column-count:3;
+	font-family: Roboto, sans-serif;
+}
